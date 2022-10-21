@@ -18,7 +18,9 @@
         "composer/installers": "^1.9",
         "drupal/core-composer-scaffold": "^9.4",
         "drupal/core-project-message": "^9.4",
-        "drupal/core-recommended": "^9.4"
+        "drupal/core-recommended": "^9.4",
+        "drupal/pathauto": "^1.11",
+        "drupal/webform_location_addressfinder": "^1.2"
     },
     "conflict": {
         "drupal/drupal": "*"
