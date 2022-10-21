@@ -20,7 +20,8 @@
         "drupal/core-project-message": "^9.4",
         "drupal/core-recommended": "^9.4",
         "drupal/pathauto": "^1.11",
-        "drupal/webform_location_addressfinder": "^1.2"
+        "drupal/webform_location_addressfinder": "^1.2",
+        "drush/drush": "^11.2"
     },
     "conflict": {
         "drupal/drupal": "*"
