@@ -1,0 +1,17 @@
+webform_location_addressfinder.settings.schema.yml:
+  type: config_object
+  label: 'Webform Location AddressFinder integration settings'
+  mapping:
+    element:
+      type: mapping
+      label: 'Element default settings'
+      mapping:
+        default_addressfinder_api_key:
+          type: string
+          label: 'Default AddressFinder API key'
+        is_nz:
+          type: boolean
+          label: 'Whether to get New Zealand addresses (default is AU)'
+        no_postal:
+          type: boolean
+          label: 'Whether to use postal addresses'

@@ -1,0 +1,17 @@
+webform.element.location.addressfinder:
+  version: VERSION
+  js:
+    js/webform.element.location.addressfinder.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery.once
+    - webform_location_addressfinder/libraries.addressfinder
+
+# External Libraries
+
+libraries.addressfinder:
+  remote: https://addressfinder.com.au
+  license: Commercial
+  gpl-compatible: false
+  js:
+    https://api.addressfinder.io/assets/v3/widget.js: {}
