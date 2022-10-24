@@ -16,10 +16,14 @@
     ],
     "require": {
         "composer/installers": "^1.9",
+        "drupal/captcha": "^1.5",
+        "drupal/clientside_validation": "^4.0",
+        "drupal/clientside_validation_jquery": "^4.0",
         "drupal/core-composer-scaffold": "^9.4",
         "drupal/core-project-message": "^9.4",
         "drupal/core-recommended": "^9.4",
         "drupal/pathauto": "^1.11",
+        "drupal/recaptcha": "^3.1",
         "drupal/webform": "^6.1",
         "drupal/webform_location_addressfinder": "^1.2",
         "drush/drush": "^11.2"
