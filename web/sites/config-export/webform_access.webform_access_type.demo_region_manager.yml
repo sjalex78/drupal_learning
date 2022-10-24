@@ -1,0 +1,6 @@
+uuid: 920d433d-9508-4085-8aaf-e70a2312b552
+langcode: en
+status: true
+dependencies: {  }
+id: demo_region_manager
+label: Manager
